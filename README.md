@@ -1,10 +1,5 @@
 # printf
-About this project:
-This is a recreation of the C standard library function printf.
-The function writes output to standard output.
-This project involves most of the major concepts of C programming language.
-The project calls in various variadic functions.
-The project was done as a team work with 2 contributors - Victor Kalu and Mayen Kalu, with the intention of learning more about team colaboration using Git and also enabling work flow with so many files.
+The project was done as a team work with 2 contributors - Onwa Blessing and Ivan Kunneh, with the intention of learning more about team colaboration using Git and also enabling work flow with so many files.
 Description:
 The function _printf uses the PROTOTYPE int _printf(const char *format, ...);. The format string is composed of zero or more directives. See man 3 printf for more detail. _printf will return the number of characters printed (excluding the null byte used to end output to strings) and will write output to stdout, the standard output stream. The function writes under the control of a format string that specifies how subsequent arguments (accessed via the variable-length argument facilities of stdarg) are converted for output.
 
